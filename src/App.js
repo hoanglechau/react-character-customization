@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Avatar from "./components/Avatar";
 import Button from "./components/Button";
@@ -58,11 +58,6 @@ const App = () => {
     setClothing2(generateRandom(collection.clothing2));
     setClothing3(generateRandom(collection.clothing3));
   };
-
-  // Side effect: the randomize function is run when the page is initially rendered
-  useEffect(() => {
-    randomize();
-  }, []);
 
   return (
     <div className="app">
