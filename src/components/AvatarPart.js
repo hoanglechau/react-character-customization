@@ -1,6 +1,6 @@
 import React from "react";
 
-const AvatarParts = ({ path, index, zIndex }) => {
+const AvatarPart = ({ path, index, zIndex }) => {
   return (
     <img
       className="avatar-part"
@@ -11,4 +11,4 @@ const AvatarParts = ({ path, index, zIndex }) => {
   );
 };
 
-export default AvatarParts;
+export default AvatarPart;
