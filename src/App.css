@@ -16,7 +16,7 @@ body {
 .app {
   font-family: monospace;
   max-width: 60vw;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,12 +196,23 @@ body {
 }
 
 @media all and (max-width: 980px) {
+  .app {
+    margin: 0;
+    height: 100%;
+  }
+
+  .shortcuts > a {
+    padding: 5px;
+    margin: 2px;
+  }
+
   .item-wrapper {
     max-height: 500px;
   }
 
   .item {
     width: calc(100% / 8);
+    margin: 2px;
   }
 }
 
@@ -232,10 +243,6 @@ body {
     margin-top: 0;
   }
 
-  .shortcuts > a {
-    padding: 5px;
-  }
-
   .item-wrapper {
     max-height: 250px;
     margin: 5px 0;
@@ -244,10 +251,6 @@ body {
   .item-title {
     margin: 5px 0 5px 10px;
     font-size: 1em;
-  }
-
-  .item {
-    margin: 2px;
   }
 }
 
