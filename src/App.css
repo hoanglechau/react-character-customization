@@ -54,7 +54,6 @@ body {
   padding: 50px;
   position: sticky;
   background-color: #fff;
-  top: calc(50% - 205px);
 }
 
 .avatar-part {
