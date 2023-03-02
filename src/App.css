@@ -107,6 +107,7 @@ body {
 .shortcuts {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .shortcuts > a {
@@ -139,12 +140,18 @@ body {
 .item-collection {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item-title {
-  color: red;
+  color: black;
   font-size: 1.5em;
-  margin: 10px 0 10px 10px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #ff3333;
+  max-width: 90%;
+  padding: 2px;
+  border-radius: 50px;
 }
 
 .item {
@@ -249,7 +256,7 @@ body {
   }
 
   .item-title {
-    margin: 5px 0 5px 10px;
+    margin: 5px auto;
     font-size: 1em;
   }
 }
