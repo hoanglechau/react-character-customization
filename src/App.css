@@ -236,7 +236,7 @@ body {
 
   .item-wrapper {
     max-height: 250px;
-    margin: 0;
+    margin: 5px 0;
   }
 
   .item-title {
