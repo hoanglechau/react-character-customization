@@ -48,11 +48,10 @@ body {
 }
 
 .avatar-wrapper {
-  border-radius: 40px;
+  border-radius: 50px;
   display: inline-block;
   border: 15px solid red;
   padding: 50px;
-  position: sticky;
   background-color: #fff;
 }
 
